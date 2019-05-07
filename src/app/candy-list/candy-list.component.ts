@@ -18,4 +18,15 @@ export class CandyListComponent implements OnInit {
     this.candyDataService.getCandy().subscribe(c => (this.candies = c));
   }
 
+  remove(name) {
+    for( let candy of this.candies) {
+     
+  }}
+
+  delete(name) {
+    delete Candy[name];
+  }
+
+  
+
 }
